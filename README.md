@@ -1,4 +1,4 @@
-echo-pprof-v4
+echo-pprof
 ========
 
 A wrapper for [golang web framework echo](https://github.com/labstack/echo) to use `net/http/pprof` easily.
@@ -9,7 +9,7 @@ Support Echo v4
 First install echo-pprof to your GOPATH using `go get`:
 
 ```sh
-go get github.com/plainbanana/echo-pprof-v4
+go get github.com/plainbanana/echo-pprof
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ package main
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/plainbanana/echo-pprof-v4"
+	"github.com/plainbanana/echo-pprof"
 )
 
 func main() {
