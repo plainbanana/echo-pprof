@@ -1,4 +1,4 @@
-module github.com/plainbanana/echo-pprof/v1
+module github.com/plainbanana/echo-pprof
 
 go 1.16
 
