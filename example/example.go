@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/labstack/echo"
-	"github.com/sevenNt/echo-pprof"
+	"github.com/plainbanana/echo-pprof"
 )
 
 func main() {
